@@ -15,3 +15,7 @@ The project follows the USGS Data Lifecycle Model and includes fully documented 
 
 ### Research Question
 **How do daily weather conditions (temperature, precipitation, wind speed) affect daily ridership in Chicago across CTA bus, CTA rail, and Divvy bike-share systems?**
+
+```bash
+cd data
+pip install -r requirements.txt
