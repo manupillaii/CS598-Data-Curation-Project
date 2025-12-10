@@ -1,6 +1,0 @@
-variable_name,description,data_type,unit,source,notes
-station_id,Unique identifier for each CTA rail station,integer,none,CTA Rail Ridership (City of Chicago Data Portal),Used to distinguish stations; consistent across dates
-stationname,Name of the CTA rail station,string,none,CTA Rail Ridership (City of Chicago Data Portal),Represents the station where entries were recorded
-date,Date of recorded ridership,string,MM/DD/YYYY,CTA Rail Ridership (City of Chicago Data Portal),Converted to standardized YYYY-MM-DD format during cleaning
-daytype,"Indicates weekday, Saturday, or Sunday/holiday",string,"categorical: W, A, U",CTA Rail Ridership (City of Chicago Data Portal),"W = Weekday, A = Saturday, U = Sunday/Holiday"
-rides,Number of recorded station entries for the given date,integer,entries/day,CTA Rail Ridership (City of Chicago Data Portal),Original values contain commas and were cleaned + converted to integers
